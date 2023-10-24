@@ -4,11 +4,10 @@ Welcome to the **Sales Prediction App Project** for embedding a timeseries model
 
 ![Python Version](https://img.shields.io/badge/Python-3.11-blue)
 ![Data Analysis](https://img.shields.io/badge/Data-Analysis-yellow)
-![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)(./LICENSE)
+![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-blueviolet)
 ![Issues](https://img.shields.io/github/issues/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
 ![PR](https://img.shields.io/github/issues-pr/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
-![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)(https://github.com/ellerbrock/open-source-badges/)
 
 ## Prerequisites 📈
 
