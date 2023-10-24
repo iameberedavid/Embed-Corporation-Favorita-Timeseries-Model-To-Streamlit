@@ -17,7 +17,7 @@ Ensure that you install the following libraries in your Python environment or vi
 * Pandas
 * CatBoost
 
-The libraries can be imported using the following command:
+The libraries can be installed using the following command:
 
 ![Installations](Images/Readmepics/Installations.png)
 
@@ -25,7 +25,7 @@ The libraries can be imported using the following command:
 
 To set up and run the Streamlit app in your local environment, follow these instructions:
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine using the following command. Replace <repository-url> with the actual url to this repository:
 
 ![Clone](Images/Readmepics/Clone.png)
 
