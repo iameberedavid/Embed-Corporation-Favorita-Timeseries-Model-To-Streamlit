@@ -22,14 +22,14 @@ ml_core_fp = os.path.join(DIRPATH, 'Assets', 'export', 'ml_components.pkl')
 ml_components_dict = load_ml_components(fp=ml_core_fp)
 
 # Extract the ML components
-best_model = ml_components_dict['best_model']
+best_model = ml_components_dict['model']
 encoder = ml_components_dict['encoder']
 scaler = ml_components_dict['scaler']
 
 # Preprocess the data
 def preprocess_data(input_df, encoder, scaler):
     categorical_features = ['family', 'onpromotion']
-    numerical_features = ['year', 'month', 'day', 'sales', 'transactions', 'oil_price']
+    numerical_features = ['sales', 'transactions', 'oil_price']
     
     df = input_df.copy()
 
@@ -62,49 +62,38 @@ def main():
     st.set_page_config(page_title='Sales Prediction App', page_icon='📊', layout='wide')
     st.title('Sales Prediction App')
     st.markdown(
-        """
+    """
 <style>
-    .stApp {
-        background-color: #008080;  /* Teal */
-        color: #000000;
-    }
-    .stTextInput {
-        color: #000000;
-        background-color: #ff00ff;  /* Magenta */
-    }
-    .stButton {
-        background-color: #ffd700;  /* Gold */
-        color: #000000;
+    body {
+        background-color: #008080;  /* Blue background color */
+        color: #000000;  /* Text color */
     }
 </style>
-        """,
-        unsafe_allow_html=True
-    )
+    """,
+    unsafe_allow_html=True
+)
+
 
     # User input section
-    date = st.date_input('Date')  # Use date_input
+    family = st.selectbox('Family', ['AUTOMOTIVE', 'BABY CARE', 'BEAUTY', 'BEVERAGES', 'BOOKS', 'BREAD/BAKERY', 'CELEBRRATION', 'CLEANING',
+                                     'DAIRY', 'DELI', 'EGGS', 'MEATS', 'PERSONAL CARE', 'PET SUPPLIES', 'PLAYERS AND ELECTRONICS', 'POULTRY',
+                                     'PREPARED FOODS', 'PRODUCE',
+                                     'SCHOOL AND OFFICE SUPPLIES', 'SEAFOOD'])
+    onpromotion = st.radio('On Promotion', ['No Promotion', 'Promotion'])
+    transactions = st.number_input('Transactions', min_value=0.0, step=0.01)
+    oil_price = st.number_input('Oil Price', min_value=0.0, step=0.01)
+    sales = st.number_input('Sales', min_value=0.0, step=0.01)
 
-    # Extract year, month, and day from the selected date
-    selected_date = datetime.datetime.strptime(str(date), '%Y-%m-%d')
-
-    store_nbr = st.number_input('Store Number', min_value=1, step=1)
-    family = st.selectbox('Select Family', ['AUTOMOTIVE', 'BABY CARE', 'BEAUTY', 'BEVERAGES', 'BOOKS', 'BREAD/BAKERY',
-                                            'PET SUPPLIES', 'PLAYERS AND ELECTRONICS', 'POULTRY',
-                                            'PREPARED FOODS', 'PRODUCE', 'SCHOOL AND OFFICE SUPPLIES', 'SEAFOOD'])
-    onpromotion = st.radio('On Promotion', ['Not on Promotion', 'On Promotion'])
 
     # Predict button
     if st.button('Predict Sales'):
         # Prepare input data for prediction
         input_data = {
-            'year': [selected_date.year],
-            'month': [selected_date.month],
-            'day': [selected_date.day],
             'family': [family],
             'onpromotion': [onpromotion],
-            'sales': [0],
-            'transactions': [0],
-            'oil_price': [0],
+            'transactions': [transactions],
+            'oil_price': [oil_price],
+            'sales': [sales],
         }
 
         input_df = pd.DataFrame(input_data)
