@@ -4,7 +4,7 @@ Welcome to the **Sales Prediction App Project** for embedding a timeseries model
 
 ![Python Version](https://img.shields.io/badge/Python-3.11-blue)
 ![Data Analysis](https://img.shields.io/badge/Data-Analysis-yellow)
-![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)
+![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)ebe
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-blueviolet)
 ![Issues](https://img.shields.io/github/issues/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
 ![PR](https://img.shields.io/github/issues-pr/PapiHack/wimlds-demo?style=for-the-badge&logo=appveyor)
@@ -66,7 +66,7 @@ The app will be launched in your default web browser and can then be used to mak
 
 ## Model Training and Saving 🤖
 
-The CatBoost model was trained using the timeseries dataset of corporation favorita as shown in this GitHub repository: [Time-Series-Forecasting-Analysis-For-Corporation-Favorita](https://github.com/iameberedavid/Time-Series-Forecasting-Analysis-For-Corporation-Favorita)
+The CatBoost model was trained using the timeseries dataset of corporation favorita as shown in this GitHub repository: [Time-Series-Forecasting-Analysis-For-Corporation-Favorita](https://github.com/iameberedavid/Time-Series-Forecasting-Analysis-For-Corporation-Favorita). Here is a Medium article explaining the process: [TIME SERIES FORECASTING ANALYSIS FOR CORPORATION FAVORITA](https://eberedavid.medium.com/time-series-forecasting-analysis-for-corporation-favorita-4e43df145e50).
 
 ## Usage Instructions 🧑‍🏫
 
