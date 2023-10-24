@@ -25,7 +25,7 @@ The libraries can be installed using the following command:
 
 To set up and run the Streamlit app in your local environment, follow these instructions:
 
-1. Clone this repository to your local machine using the following command. Replace [<repository-url>] with the actual url to this repository:
+1. Clone this repository to your local machine using the following command. Replace \<repository-url\> with the actual url to this repository:
 
 ![Clone](Images/Readmepics/Clone.png)
 
