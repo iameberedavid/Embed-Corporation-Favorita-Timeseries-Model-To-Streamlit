@@ -47,7 +47,7 @@ The app will be launched in your default web browser and can then be used to mak
 
 ![App Preview](Images/Readmepics/App.png)
 
-## Features ⤵⤴
+## Features ✅
 
 **Sales Prediction**: The app allows users to input the product family, indicate if a product is on promotion, input the transactions, oil price, and sales. It can then predict using the CatBoost model from the Machine Learning components.
 
