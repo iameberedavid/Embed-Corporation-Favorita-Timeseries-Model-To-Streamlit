@@ -43,10 +43,6 @@ To set up and run the Streamlit app in your local environment, follow these inst
 
 The app will be launched in your default web browser and can then be used to make sales predictions based on the input fields.
 
-**Click on the link below to access the app :**
-
- [App Link](http://192.168.0.107:8501)
-
 ## Preview 🔍
 
 ![App Preview](Images/Readmepics/App.png)
@@ -55,7 +51,7 @@ The app will be launched in your default web browser and can then be used to mak
 
 | Name                | LinkedIn                                                                                                                                                                                                                                   | Medium Article |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| Chidiebere David Ogbonna | [Chidiebere David Ogbonna](https://www.linkedin.com/in/chidieberedavidogbonna/) |[EMBEDDING TIMESERIES FORECASTING ANALYSIS MODEL TO STREAMLIT](https://eberedavid.medium.com/embedding-timeseries-forecasting-analysis-for-corporation-favorita-model-to-streamlit-eefe13bf8bf2)|
+| Chidiebere David Ogbonna | [Chidiebere David Ogbonna](https://www.linkedin.com/in/chidieberedavidogbonna/) |[BUILDING A USER-FRIENDLY SALES PREDICTION APP USING STREAMLIT AND HUGGINGFACE](https://eberedavid.medium.com/embedding-timeseries-forecasting-analysis-for-corporation-favorita-model-to-streamlit-eefe13bf8bf2)|
 |                          |                                                                                                                                                                                                                                            |        |
 
 ## Features
