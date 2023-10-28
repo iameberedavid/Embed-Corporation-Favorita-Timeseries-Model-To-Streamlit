@@ -47,6 +47,18 @@ The app will be launched in your default web browser and can then be used to mak
 
 ![App Preview](Images/Readmepics/App.png)
 
+## Features ⤵⤴
+
+**Sales Prediction**: The app allows users to input the product family, indicate if a product is on promotion, input the transactions, oil price, and sales. It can then predict using the CatBoost model from the Machine Learning components.
+
+**Interactive Interface**: Streamlit provides an interactive, easy-to-use, web-based interface.
+
+## Usage Instructions 📋
+
+- Input Fields: The app displays input fields for the family, onpromotion, transactions, oil price, and sales.
+- Prediction: Click the "Predict Sales" button to get a sales prediction based on the provided inputs.
+- Results: The app will display the predicted sales for the specified inputs.
+
 ## Author 👨‍💼
 
 | Name                | LinkedIn                                                                                                                                                                                                                                   | Medium Article |
@@ -54,21 +66,9 @@ The app will be launched in your default web browser and can then be used to mak
 | Chidiebere David Ogbonna | [Chidiebere David Ogbonna](https://www.linkedin.com/in/chidieberedavidogbonna/) |[BUILDING A USER-FRIENDLY SALES PREDICTION APP USING STREAMLIT AND HUGGINGFACE](https://eberedavid.medium.com/embedding-timeseries-forecasting-analysis-for-corporation-favorita-model-to-streamlit-eefe13bf8bf2)|
 |                          |                                                                                                                                                                                                                                            |        |
 
-## Features
-
-**Sales Prediction**: The app allows users to input the product family, indicate if a product is on promotion, input the transactions, oil price, and sales. It can then predict using the CatBoost model from the Machine Learning components.
-
-**Interactive Interface**: Streamlit provides an interactive, easy-to-use, web-based interface.
-
-## Model Training and Saving 🤖
+## Model Training and Saving ⏳
 
 The CatBoost model was trained using the timeseries dataset of corporation favorita as shown in this GitHub repository: [Time-Series-Forecasting-Analysis-For-Corporation-Favorita](https://github.com/iameberedavid/Time-Series-Forecasting-Analysis-For-Corporation-Favorita). Here is a Medium article explaining the process: [TIME SERIES FORECASTING ANALYSIS FOR CORPORATION FAVORITA](https://eberedavid.medium.com/time-series-forecasting-analysis-for-corporation-favorita-4e43df145e50).
-
-## Usage Instructions 🧑‍🏫
-
-- Input Fields: The app displays input fields for the family, onpromotion, transactions, oil price, and sales.
-- Prediction: Click the "Predict Sales" button to get a sales prediction based on the provided inputs.
-- Results: The app will display the predicted sales for the specified inputs.
 
 ## Acknowledgments 🙏
 
