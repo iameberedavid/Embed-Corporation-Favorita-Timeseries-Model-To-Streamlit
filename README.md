@@ -68,7 +68,7 @@ The CatBoost model was trained using the timeseries dataset of corporation favor
 
 - Input Fields: The app displays input fields for the family, onpromotion, transactions, oil price, and sales.
 - Prediction: Click the "Predict Sales" button to get a sales prediction based on the provided inputs.
-- Results: The app will display the predicted sales for the specified data in the input field.
+- Results: The app will display the predicted sales for the specified inputs.
 
 ## Acknowledgments 🙏
 
